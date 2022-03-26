@@ -8,11 +8,11 @@ html,body {
     height: 100%;
 }
 
-.parent {
+.main {
     display: flex;
 }
 
-.sidebar {
+.barra-lateral{
     filter: drop-shadow(0 0 20px rgb(0, 0, 0));
     width: 20%;
     height: 100%;
@@ -20,17 +20,17 @@ html,body {
     background-color: rgb(97, 0, 0);
 } 
 
-.sidebar-pos{
+.barra-lateral-pos{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
 }
 
-.img-sidebar{
+.img-barra-lateral{
     text-align: center;
 }
 
-.img-sidebar img{
+.img-barra-lateral img{
   filter: drop-shadow(0 0 10px rgb(253, 253, 253));
   width: 80%;
   border-radius: 50%;
@@ -51,11 +51,15 @@ html,body {
     margin-bottom: 20px;
 }
 
+.menu ul {
+    list-style: none;
+}
+
 .menu a.selected {
     opacity: 1;
 }
 
-.content {
+.conteudo {
     position: absolute;
     left: 20%;
     width: 80%;
@@ -75,6 +79,7 @@ section.descricao h2{
     font-family:Arial, Helvetica, sans-serif;
     font-size: 70px;
     margin: 15px 0;
+    font-style: italic ;
 }
 
 section.descricao h2 > span-1{
