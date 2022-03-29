@@ -13,7 +13,7 @@ html,body {
 }
 
 .barra-lateral{
-    filter: drop-shadow(0 0 20px rgb(0, 0, 0));
+    filter: drop-shadow(0 0 20px rgb(255, 255, 255));
     width: 20%;
     height: 100%;
     position: fixed;
@@ -31,10 +31,10 @@ html,body {
 }
 
 .img-barra-lateral img{
-  filter: drop-shadow(0 0 10px rgb(253, 253, 253));
+  filter: drop-shadow(0 0 20px rgb(252, 122, 122));
   width: 80%;
   border-radius: 50%;
-  border: 8px solid rgb(161, 5, 13);
+  border: 8px solid rgb(141, 0, 0);
 }
 
 .menu {
@@ -45,8 +45,9 @@ html,body {
 .menu a{
     color: rgb(255, 255, 255);
     opacity: 0.6;
-    font-size: 25px;
+    font-size: 30px;
     text-decoration: none;
+    font-style: italic;
     display: block;
     margin-bottom: 20px;
 }
@@ -74,9 +75,9 @@ section.descricao {
 }
 
 section.descricao h2{
-    filter: drop-shadow(0 0 3px rgb(61, 61, 61));
+    filter: drop-shadow(0 0 3px rgb(255, 255, 255));
     color: rgb(161, 5, 13);
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Arial,;
     font-size: 70px;
     margin: 15px 0;
     font-style: italic ;
@@ -123,3 +124,19 @@ p {
     line-height: 40px;
 }
 
+.vidro-fundo {
+    background-image: url(https://i.pinimg.com/564x/6a/2f/4f/6a2f4f87f5a8a666ad8aae6f1091dbfa.jpg) ;
+}
+
+.vidro {
+    text-align: center;
+    font-size: 40px;
+    background: rgba(150, 150, 150, 0.123);
+    backdrop-filter: blur( 7px );
+    -webkit-backdrop-filter: blur( 10px );
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-radius: 15%;
+}
