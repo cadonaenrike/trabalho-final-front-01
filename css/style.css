@@ -28,6 +28,7 @@ html,body {
 
 .img-barra-lateral{
     text-align: center;
+    padding-top: 30px;
 }
 
 .img-barra-lateral img{
@@ -50,6 +51,7 @@ html,body {
     font-style: italic;
     display: block;
     margin-bottom: 20px;
+    text-transform: uppercase;
 }
 
 .menu ul {
@@ -61,6 +63,7 @@ html,body {
 }
 
 .conteudo {
+   
     position: absolute;
     left: 20%;
     width: 80%;
@@ -81,10 +84,11 @@ section.descricao h2{
     font-size: 70px;
     margin: 15px 0;
     font-style: italic ;
+    
 }
 
 section.descricao h2 > span-1{
-    color: rgb(88, 88, 88);
+    color: rgb(43, 42, 42);
 }
 
 section.descricao h2 > span-2{
@@ -92,7 +96,7 @@ section.descricao h2 > span-2{
 }
 
 section.descricao h3 {
-    color: rgb(88, 88, 88);
+    color: rgb(43, 42, 42);
     font-size: 30px;
 }
 
@@ -102,9 +106,10 @@ section.descricao h3 > a{
 }
 
 p {
-    color: rgb(88, 88, 88);
+    color: rgb(43, 42, 42);
     font-size: 25px;
     margin-top: 40px;
+    text-transform:initial;
 }
 
 .icons-social {
@@ -114,7 +119,7 @@ p {
 .icons-social a {
     text-decoration: none;
     color: white;
-    background-color: rgb(51, 51, 51);
+    background-color: rgb(43, 42, 42);
     width: 45px;
     height: 45px;
     border-radius: 20px;
@@ -125,18 +130,23 @@ p {
 }
 
 .vidro-fundo {
-    background-image: url(https://i.pinimg.com/564x/6a/2f/4f/6a2f4f87f5a8a666ad8aae6f1091dbfa.jpg) ;
+    background-image: url(https://thumbs.gfycat.com/CraftyCircularBeauceron-max-1mb.gif) ;
 }
 
 .vidro {
     text-align: center;
     font-size: 40px;
     background: rgba(150, 150, 150, 0.123);
-    backdrop-filter: blur( 7px );
-    -webkit-backdrop-filter: blur( 10px );
+    backdrop-filter: blur( 2px );
     margin-top: 10px;
     margin-left: 10px;
     margin-bottom: 10px;
     margin-right: 10px;
     border-radius: 15%;
+}
+
+.fundo-2 {
+    background-image: url(https://cdn.hackernoon.com/images/1*tTSlpu3Q6ibx4_8kCJ0BEg.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
